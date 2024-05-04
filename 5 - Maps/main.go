@@ -12,6 +12,7 @@ func main() {
 
 	sal["Joao"] = 200
 
+	// underlyne no for, é usado para ignorar o primeiro valor
 	for _, s := range sal {
 		fmt.Println(s)
 	}
