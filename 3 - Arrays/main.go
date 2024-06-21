@@ -10,12 +10,14 @@ var (
 
 func main() {
 	var meuArray [3]int
-	meuArray[0] = 1
-	meuArray[1] = 2
-	meuArray[2] = 3
+	meuArray[0] = 10
+	meuArray[1] = 20
+	meuArray[2] = 30
 
+	//contando quantas posiçoes tem meu array
 	fmt.Println(len(meuArray))
 
+	//percorrendo meu array - range é utilizado para percorrer.
 	for i, v := range meuArray {
 		fmt.Printf("o valor do indice %d é: %d \n", i, v)
 	}
