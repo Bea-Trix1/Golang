@@ -30,3 +30,11 @@ func main() {
 	fmt.Println(a, b)
 	fmt.Println(nomes)
 }
+
+func sliceNull() {
+	var s []int
+	fmt.Println(s, len(s), cap(s))
+	if s == nil {
+		fmt.Println("nil!")
+	}
+}
