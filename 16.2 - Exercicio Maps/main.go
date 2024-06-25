@@ -28,9 +28,3 @@ func main() {
 	s := "Eu amo a Laura barros!"
 	fmt.Println(WordCount(s))
 }
-
-// Explicação
-
-// make(map[string]int): Cria um mapa para armazenar as contagens de palavras.
-// for _, word := range words: Itera sobre cada palavra no slice words.
-// wordCount[word]++: Incrementa a contagem da palavra no mapa.
