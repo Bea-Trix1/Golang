@@ -1,8 +1,13 @@
 package main
 
+//Constraints são restrições que vc pode colocar no generics para limitar os tipos que podem ser usados
+type Number interface {
+	int | float64
+}
+
 // Tipos Generics são formas mais práticas de vc não ter que criar duas funções para tipos diferentes
 // Utilizando o generics, vc pode criar uma função que aceita qualquer tipo de dado, sem precisar criar uma função para cada tipo.
-func Soma[T int | float64](m map[string]T) T {
+func Soma[T Number](m map[string]T) T {
 	var sum T
 
 	for _, v := range m {
