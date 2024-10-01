@@ -1,5 +1,6 @@
 package main
 
+// https://pkg.go.dev/html/template -> Documentação do pacote html/template
 import (
 	"html/template" // html/template é um pacote que permite a criação de templates de forma segura, evitando ataques de injeção de código
 	"os"            // os é um pacote que fornece uma plataforma independente de acesso ao sistema operacional
